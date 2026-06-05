@@ -1,0 +1,10 @@
+{
+  "description": "UN population projections loader — fetches indicator × location series into db-pop",
+  "log_file": "progress.log",
+  "item_name": "items",
+  "queue": {
+    "db": "db-pop",
+    "table": "load_queue",
+    "tried_col": "tried"
+  }
+}
